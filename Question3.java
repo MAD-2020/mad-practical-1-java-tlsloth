@@ -11,6 +11,11 @@ public class Question3
      */
      
     Scanner in = new Scanner(System.in);
-    
+    System.out.print("Enter an integer: ");
+    int Integer = in.nextInt();
+    int newint = Integer*Integer;
+    String reply = String.format("New int: %d",newint);
+    System.out.print(reply);
+
   }
 }
