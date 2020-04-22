@@ -4,6 +4,7 @@ public class Question5
 {
   public static void main(String[] args)
   {
+    Scanner in = new Scanner(System.in);
     System.out.print("Enter the number of numbers: ");
     int numofnums = in.nextInt();
     ArrayList<Integer> numbers = new ArrayList<Integer>();
