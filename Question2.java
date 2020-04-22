@@ -15,7 +15,9 @@ public class Question2
     double height = in.nextDouble();
     System.out.print("Enter your Weight: ");
     double weight = in.nextDouble();
-    String reply = String.format("Your height is %.2f m, and your weight is %.2f kg",height,weight);
-    System.out.print(reply)
+    double bmi = weight/(height*height);
+    String reply = String.format("Your bmi is %.2f.",bmi);
+    System.out.print(reply);
+
   }
 }
